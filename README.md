@@ -23,5 +23,10 @@ API: https://zenquotes.io/api
 
 🔄 **Real-time Updates**:Fresh data fetched from reliable APIs
 
-
+## Technologies Used
+•	**Frontend Framework:** React 19.1.0
+•	**Build Tool:** Vite 7.0.4
+•	**UI Icons**: Lucide React
+•	**Drag & Drop:** React DnD with HTML5 Backend
+•	**Styling:** CSS3 with modern features
 
