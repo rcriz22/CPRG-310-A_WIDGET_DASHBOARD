@@ -1,0 +1,14 @@
+.weather-widget {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #D0A189 0%, #ECDFCF 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: #69331b;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 8px 32px rgba(208, 161, 137, 0.4);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

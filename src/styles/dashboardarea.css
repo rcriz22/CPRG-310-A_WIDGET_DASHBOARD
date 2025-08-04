@@ -1,0 +1,73 @@
+/* DASHBOARD CONTAINER */
+.dashboard-area {
+  width: 100%;
+  max-width: 1600px;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: #FEF4EA; 
+  border: 2px dashed #D0A189; 
+  border-radius: 12px;
+  box-sizing: border-box;
+  min-height: 320px;
+}
+
+/* WIDGET CONTAINER */
+.widgets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* WIDGET WRAP */
+.widget-wrapper {
+  flex: 0 1 calc(25% - 2rem); 
+  min-width: 280px;
+  max-width: 320px;
+  /* height: 400px;  */
+  /* height: fit-content; */
+  background-color: #ECDFCF; 
+  border-radius: 1rem;
+  box-shadow: 0 6px 15px rgba(163, 135, 114, 0.3); 
+  border: 1px solid #C2BFB0; 
+  padding: 0;
+  box-sizing: border-box;
+  position: relative; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex; 
+  flex-direction: column;
+}
+
+/* HOVER EFFECT */
+.widget-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(163, 135, 114, 0.5);
+}
+
+.widget-wrapper.dragging {
+  opacity: 0.6;
+  cursor: grabbing;
+  z-index: 10;
+  position: relative !important;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .widget-wrapper {
+    flex: 0 1 calc(33.33% - 2rem);
+  }
+}
+
+@media (max-width: 900px) {
+  .widget-wrapper {
+    flex: 0 1 calc(50% - 2rem); 
+  }
+}
+
+@media (max-width: 600px) {
+  .widget-wrapper {
+    flex: 0 1 100%; 
+    max-width: 100%;
+    height: auto; 
+  }
+}

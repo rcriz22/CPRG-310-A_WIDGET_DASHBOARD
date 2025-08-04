@@ -1,0 +1,29 @@
+.widget.advice-widget {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #A38772 0%, #D0A189 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 8px 32px rgba(163, 135, 114, 0.4);
+  min-height: unset;
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.refresh-btn {
+  background: linear-gradient(135deg, #A38772 0%, #D0A189 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #4A3B2A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+}
+
+.refresh-btn:hover:not(:disabled) {
+  background: rgba(163, 135, 114, 0.7);
+}

@@ -1,0 +1,64 @@
+.widget-toolbar {
+  background-color: #fafaf8;
+  border-top: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.toolbar-header h3 {
+  margin: 0;
+}
+
+.toolbar-widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.toolbar-widget {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  cursor: grab;
+  transition: background 0.2s;
+}
+
+.toolbar-widget.dragging {
+  opacity: 0.5;
+}
+
+.drag-handle {
+  margin-right: 0.5rem;
+  color: #69331b;
+}
+
+.widget-name {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.add-icon {
+  color: #928f8b;
+}
+
+@media (max-width: 768px) {
+  .widget-toolbar {
+    align-items: center;
+  }
+
+  .toolbar-widgets {
+    justify-content: center;
+  }
+
+  .toolbar-widget {
+    width: 100%;
+    justify-content: center;
+  }
+}

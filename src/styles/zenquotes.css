@@ -1,0 +1,219 @@
+
+.zenquotes-widget {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #C2BFB0 0%, #B0B098 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: #4A3B2A;
+  width: 100%;
+  max-height: 100%;
+  box-shadow: 0 8px 32px rgba(194, 191, 176, 0.4);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* WIDGET HEADER */
+.zenquotes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.zenquotes-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zenquotes-title h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.zenquotes-refresh-btn {
+  background: linear-gradient(135deg, #A38772 0%, #D0A189 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  color: #4A3B2A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 8px; 
+  z-index: 5; 
+}
+
+.zenquotes-refresh-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.zenquotes-refresh-btn:hover:not(:disabled) {
+  background: rgba(163, 135, 114, 0.7);
+}
+
+.category-selector {
+  flex-shrink: 0;
+  margin-bottom: 10px; 
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px; 
+  justify-content: center;
+}
+
+.category-btn {
+  background: rgba(163, 135, 114, 0.1);
+  border: none;
+  border-radius: 16px;
+  padding: 4px 10px; 
+  color: #4A3B2A;
+  font-size: 12px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 60px; 
+}
+
+.category-btn:hover {
+  background: rgba(163, 135, 114, 0.2);
+}
+
+.category-btn.active {
+  background: rgba(163, 135, 114, 0.3);
+}
+
+/* QUOTE CONTENT */
+.quote-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-main {
+  background: linear-gradient(135deg, #A38772 0%, #D0A189 100%);
+  box-shadow: inset 0 0 6px rgba(74, 59, 42, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  color: #4A3B2A;
+  min-height: 120px;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  opacity: 0.3;
+}
+
+.quote-text {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.quote-author {
+  display: block;
+  text-align: right;
+  font-size: 12.5px;
+  opacity: 0.8;
+  margin-top: 15px;
+  font-style: normal;
+}
+
+/* ACTION BUTTONS */
+.quote-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.action-btn {
+  background: rgba(163, 135, 114, 0.1);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  color: #4A3B2A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn:hover {
+  background: rgba(163, 135, 114, 0.2);
+  transform: scale(1.1);
+}
+
+.action-btn:disabled {
+  cursor: not-allowed;
+}
+
+.action-btn.liked {
+  color: #B0B098;
+}
+
+.quote-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 20px;
+  text-align: center;
+  color: #4A3B2A;
+}
+
+.quote-error {
+  color: #D0A189;
+  text-align: center;
+  padding: 20px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 480px) {
+  .zenquotes-widget {
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+  
+  .quote-text {
+    font-size: 14px;
+  }
+  
+  .category-buttons {
+    justify-content: center;
+  }
+  
+  .category-btn {
+    font-size: 8px;
+    padding: 3px 8px;
+    min-width: 50px;
+  }
+}
