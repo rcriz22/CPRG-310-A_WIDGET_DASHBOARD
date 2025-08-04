@@ -67,7 +67,7 @@ Setup
 
 1.	Clone the repository
 
-2.	git clone <your-repository-url>
+2.	git clone (https://github.com/rcriz22/CPRG-310-A_WIDGET_DASHBOARD.git)
 
 3.	cd widget-dashboard
 
