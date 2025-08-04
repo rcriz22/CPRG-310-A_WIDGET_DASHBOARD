@@ -39,6 +39,8 @@ API: https://zenquotes.io/api
 
 🔄 **Real-time Updates**:Fresh data fetched from reliable APIs
 
+All APIs used in this project are free and don't require authentication. 
+
 ## Technologies Used
 •	**Frontend Framework:** React 19.1.0
 
@@ -56,5 +58,7 @@ API: https://zenquotes.io/api
 
 
 ## Installation and Local Setup
+
+###🔧 Dependencies
 
 
