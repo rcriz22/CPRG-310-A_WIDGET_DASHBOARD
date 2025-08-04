@@ -58,6 +58,28 @@ All APIs used in this project are free and don't require authentication.
 
 
 ## Installation and Local Setup
+Prerequisites
+
+•	Node.js (version 16 or higher)
+
+•	npm or yarn package manager
+Setup
+
+1.	Clone the repository
+
+2.	git clone <your-repository-url>
+
+3.	cd widget-dashboard
+
+4.	Install dependencies
+
+5.	npm install
+
+6.	Start the development server
+
+7.	npm run dev
+
+8.	Open your browser Navigate to http://localhost:5173 to view the dashboard.
 
 ## 🔧 Dependencies
 Production Dependencies
