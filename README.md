@@ -99,7 +99,9 @@ Development Dependencies
 •	eslint - Code linting and quality assurance
 
 📧 Contact
+
 If you have any questions or suggestions, feel free to reach out or create an issue in the repository.
+
 ________________________________________
 
 
