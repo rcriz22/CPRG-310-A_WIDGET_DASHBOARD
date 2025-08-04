@@ -17,4 +17,9 @@ API: https://api.open-meteo.com
 
 API: https://zenquotes.io/api
 
+↕️ **Drag and Drop Interface**: Rearrange widgets to customize your dashboard layout
+⌞ ⌝ **Responsive Design**:Works seamlessly across desktop and mobile devices
+🔄 **Real-time Updates**:Fresh data fetched from reliable APIs
+
+
 
