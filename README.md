@@ -34,3 +34,33 @@ API: https://zenquotes.io/api
 
 •	**Styling:** CSS3 with modern features
 
+## 🏗️ Project Structure
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AdviceSlipWidget.jsx
+│   │   ├── DashboardArea.jsx
+│   │   ├── DraggableWidgetWrapper.jsx
+│   │   ├── JokeWidget.jsx
+│   │   ├── WeatherWidget.jsx
+│   │   ├── WidgetToolbar.jsx
+│   │   └── ZenQuotesWidget.jsx
+│   ├── styles/
+│   │   ├── adviceslipwidget.css
+│   │   ├── App.css
+│   │   ├── dashboardarea.css
+│   │   ├── draggablewidget.css
+│   │   ├── jokewidget.css
+│   │   ├── weatherwidget.css
+│   │   ├── widgettoolbar.css
+│   │   └── zenquotes.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+## Installation and Local Setup
+
+
