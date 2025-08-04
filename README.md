@@ -59,6 +59,22 @@ All APIs used in this project are free and don't require authentication.
 
 ## Installation and Local Setup
 
-###🔧 Dependencies
+## 🔧 Dependencies
+Production Dependencies
+
+•	react & react-dom - Core React library
+
+•	lucide-react - Beautiful, customizable icons
+
+•	react-dnd & react-dnd-html5-backend - Drag and drop functionality
+
+Development Dependencies
+
+•	vite - Fast build tool and development server
+
+•	@vitejs/plugin-react - Vite plugin for React support
+
+•	eslint - Code linting and quality assurance
+
 
 
