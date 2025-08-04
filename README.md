@@ -2,12 +2,19 @@
 A personalized dashboard application created with React and Vite that showcases a variety of interactive widgets, featuring real-time data sourced from multiple APIs. The Widget Dashboard serves as a personalized web application that enables users to effortlessly drag, drop, and organize diverse lifestyle widgets within a tailored layout.
 ## 🎨 Design System
 The dashboard uses a warm, earthy color scheme that creates a calming and professional appearance:
+
 •	Warm Brown #A38772 - Primary accent and interactive elements
+
 •	Sage Gray #C2BFB0 - Secondary backgrounds and borders
+
 •	Muted Olive #B0B098 - Subtle accents and dividers
+
 •	Cream Beige #ECDFCF - Light backgrounds and cards
+
 •	Ivory White #FEF4EA - Main background and text areas
+
 •	Dusty Rose #D0A189 - Highlights and hover states
+
 
 ## ☰ FEATURES
 ☝️**Advice Slip Widget**: Get daily wisdom and motivational advice.
